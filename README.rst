@@ -6,7 +6,7 @@ Installation
 
 ::
 
-    pip install git+https://github.com/edunext/tutor-contrib-codejail
+    pip install git+https://github.com/cafuchs/tutor-contrib-codejail.git
 
 Usage
 -----
