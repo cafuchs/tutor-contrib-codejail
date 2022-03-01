@@ -27,10 +27,10 @@ ABOUT = load_about()
 setup(
     name="tutor-contrib-codejail",
     version=ABOUT["__version__"],
-    url="https://github.com/github/tutor-contrib-codejail",
+    url="https://github.com/cafuchs/tutor-contrib-codejail.git",
     project_urls={
-        "Code": "https://github.com/edunext/tutor-contrib-codejail",
-        "Issue tracker": "https://github.com/edunext/tutor-contrib-codejail/issues",
+        "Code": "https://github.com/cafuchs/tutor-contrib-codejail.git",
+        "Issue tracker": "https://github.com/cafuchs/tutor-contrib-codejail.git/issues",
     },
     license="AGPLv3",
     author="Eric Herrera",

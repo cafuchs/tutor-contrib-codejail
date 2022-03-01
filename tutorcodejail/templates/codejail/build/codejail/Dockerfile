@@ -27,7 +27,7 @@ RUN $PYENV_ROOT/versions/$SANDBOX_PYTHON_VERSION/bin/python -m venv --copies /sa
 
 ###### Codejail service code
 FROM minimal as code
-RUN git clone https://github.com/eduNEXT/codejailservice.git --branch {{ CODEJAIL_VERSION }} --depth 1 /openedx/codejailservice
+RUN git clone https://github.com/cafuchs/codejailservice.git --branch {{ CODEJAIL_VERSION }} --depth 1 /openedx/codejailservice
 WORKDIR /openedx/codejailservice
 
 ###### Install python requirements in virtualenv
